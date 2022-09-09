@@ -16,17 +16,17 @@ AWD: 0.1852
 •	To get a further understanding of why the variance was so high, an R script was written to group each manufacturing lot by mean, median, variance and standard deviation of the suspension coil’s PSI column. This summary table showed that the main contributor for the high variance is the third lot, which has a variance of 170.2861224, which is more than the design specification. This manufacturing lot should be addressed to handle the issue. 
 
 <img src="Images/summary_table1.png" width="700">
-<img src="Images/total_summary.png" width="700">
+<img src="Images/total_summary.png" width="600">
 
 ##  T-Test on Suspension Coils
-
-<img src="Images/Deliverable_3.png" width="500">
 
 •	A T-Test was performed all on 3 lots in order to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. 
 •	The initial T-Test included all three lots and resulted in a p value of p = 0.06028 which is > 0.05 and indicates that together, the total manufacturing lot is not statistically different from the population mean. 
 •	The T-Test for lot 1 resulted in a p value of p = 1, which is also > 0.05, meaning that lot 1 was not statistically different from the population mean. 
 •	Lot 2 had a p-value of 0.6072 > 0.05 and is not statistically different from the population mean.
 •	Lot 3, however, produced a p-value of 0.04168 < 0.05 and is statistically different and we are unable to reject the null hypothesis.
+
+<img src="Images/Deliverable_3.png" width="600">
 
 
 ## Study Design: MechaCar vs Competition
