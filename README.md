@@ -26,7 +26,7 @@ AWD: 0.1852
 •	Lot 2 had a p-value of 0.6072 > 0.05 and is not statistically different from the population mean.
 •	Lot 3, however, produced a p-value of 0.04168 < 0.05 and is statistically different and we are unable to reject the null hypothesis.
 
-<img src="Images/Deliverable_3.png" width="600">
+<img src="Images/Deliverable_3.png" width="700">
 
 
 ## Study Design: MechaCar vs Competition
