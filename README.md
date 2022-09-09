@@ -8,7 +8,7 @@ ground clearance: 5.21e-08
 AWD: 0.1852
 •	The linear model does a good job at predicting the mpg of MechaCar prototypes. The r-squared value for this model is 0.7149. This indicates that roughly 71.5% of the variability of the dependent model was shown through this linear model. 
 
-<img src="Images/Delverable_1.png" width="700">
+<img src="Images/Delverable_1.png" width="800">
 
 ## Summary Statistics on Suspension Coils
 
