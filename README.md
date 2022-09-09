@@ -8,19 +8,19 @@ ground clearance: 5.21e-08
 AWD: 0.1852
 •	The linear model does a good job at predicting the mpg of MechaCar prototypes. The r-squared value for this model is 0.7149. This indicates that roughly 71.5% of the variability of the dependent model was shown through this linear model. 
 
-<img src="static/Images/Delverable_1.png" width="700">
+<img src="Images/Delverable_1.png" width="700">
 
 ## Summary Statistics on Suspension Coils
 
 •	MechaCar has a design specification for the suspension coils that dictate the variance of the suspension coils must not exceed 100 pounds. To verify that the current manufacturing data meets this design specification for all manufacturing lots, a total_summary database was created. Looking at this, we can see that there is a variance of 62.29356. While this falls below the 100 pounds, it is higher than what is anticipated. 
 •	To get a further understanding of why the variance was so high, an R script was written to group each manufacturing lot by mean, median, variance and standard deviation of the suspension coil’s PSI column. This summary table showed that the main contributor for the high variance is the third lot, which has a variance of 170.2861224, which is more than the design specification. This manufacturing lot should be addressed to handle the issue. 
 
-<img src="static/Images/summary_table1.png" width="700">
-<img src="static/Images/total_summary.png" width="700">
+<img src="Images/summary_table1.png" width="700">
+<img src="Images/total_summary.png" width="700">
 
 ##  T-Test on Suspension Coils
 
-<img src="static/images/Deliverable_3.png" width="500">
+<img src="Images/Deliverable_3.png" width="500">
 
 •	A T-Test was performed all on 3 lots in order to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. 
 •	The initial T-Test included all three lots and resulted in a p value of p = 0.06028 which is > 0.05 and indicates that together, the total manufacturing lot is not statistically different from the population mean. 
